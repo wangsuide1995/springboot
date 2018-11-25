@@ -1,0 +1,15 @@
+
+name: qwer
+age: 123
+
+spring:
+    profiles:
+      active: dev
+---
+spring:
+  profiles: hello
+name: wang
+---
+spring:
+  profiles: dev
+age: 12356
